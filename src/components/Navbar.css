@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.nav-heading {
+    margin-left: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-heading h2 {
+    font-size: var(--font-h3)
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 84px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--font-h3);
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin-right: 32px;
+}
+
+.nav-links button{
+    color: black;
+    background-color: var(--primary-color);
+    font-size: var(--font-h3);
+    font-weight: 600;
+
+    padding: 0px 30px;
+    border-radius: 32px;
+    height: 46px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,0 +1,5 @@
+body{
+    background: var(--black-color);
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+}
