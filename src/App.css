@@ -1,5 +1,6 @@
 body{
-    background: var(--black-color);
+    background-color: var(--black-color);
+    /* background: linear-gradient(to bottom,rgb(45, 45, 45) 10%,black); */
     font-family: var(--main-font);
     color: var(--secondary-color);
 }

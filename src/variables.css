@@ -1,6 +1,8 @@
 :root{
     --main-font: 'Montserrat', sans-serif;
     --primary-color: #C6F906;
+    /* --primary-color: #ff7543; */
+    /* --primary-color: red; */
     --secondary-color: #FEFEFE;
     --black-color: #050505;
     --font-light: #a6a6a6;
@@ -8,4 +10,9 @@
     --font-h1: 100px;
     --font-h2: 32px;
     --font-h3: 16px;
+
+    /* Mobile Variables */
+    --font-mobile-h1: 50px;
+    --font-mobile-h2: 24px;
+    --font-mobile-h3: 16px;
 }

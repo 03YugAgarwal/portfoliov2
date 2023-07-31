@@ -1,5 +1,6 @@
 .home {
-  margin-left: 240px;
+  /* margin-left: clamp(80px,12.5%,240px); */
+  margin-left: 12.5%;
 }
 
 .home-main {
@@ -10,7 +11,23 @@
   line-height: normal;
   margin-bottom: 0;
   margin-top: 120px;
+  position: relative;
+
+  /* text-decoration: dashed ;
+  text-decoration-color: red; */
 }
+
+/* .home-main:hover::before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  bottom: 8px;
+  width: 900px;
+  height: 4px;
+  transform: skew(-12deg) translateX(-50%);
+  background: var(--primary-color);
+  z-index: -1;
+} */
 
 .home-secondary {
   font-size: 52px;
@@ -36,7 +53,7 @@
   width: 64px;
   border-radius: 100px;
   margin-left: auto;
-  margin-right: 84px;
+  margin-right: 8%;
 
   background-color: var(--primary-color);
   border: none;
@@ -47,6 +64,6 @@
 .home-bottom button:hover {
   background-color: white;
   transform: scale(1.05);
-  /* box-shadow: 0px 0px 50px white; */
+  box-shadow: 0px 0px 50px var(--primary-color);
   cursor: pointer;
 }
