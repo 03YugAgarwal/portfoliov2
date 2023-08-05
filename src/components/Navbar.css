@@ -72,8 +72,6 @@
 
   position: absolute;
   top: 24px;
-  left:24px;
-
   width: 32px;
   height: 24px;
   margin-left: 24px;
@@ -92,12 +90,22 @@
   z-index: 2;
   position: absolute;
   top: 24px;
-  left:24px;
 
   width: 32px;
   height: 24px;
   margin-left: 24px;
+}
 
+
+.hamburger-menu-open .hamburger-item:nth-child(3){
+  transform: rotate(45deg) translateX(-3px) translateY(-3px);
+}
+.hamburger-menu-open .hamburger-item:nth-child(2){
+  /* display: none; */
+  transform: rotate(135deg) translateX(4px) translateY(-4px);
+}
+.hamburger-menu-open .hamburger-item:nth-child(1){
+  display: none;
 }
 
 .nav-links-hamburger {
@@ -138,14 +146,20 @@
   .nav-heading {
 
     z-index: 2;
-
-    font-size: 28px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+
+  }
+  .nav-heading h2{
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 0px; */
   }
 
   .hamburger-menu{
-    display: inline;
+    display: inline-block;
   }
+
   
 }
