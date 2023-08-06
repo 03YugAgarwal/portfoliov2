@@ -1,0 +1,186 @@
+.contactme {
+  /* margin-left: clamp(80px,12.5%,240px); */
+  margin-left: 12.5%;
+}
+
+.contactme-main {
+  font-size: var(--font-h1);
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0;
+  margin-top: 120px;
+  position: relative;
+
+  /* text-decoration: dashed ;
+    text-decoration-color: red; */
+}
+
+.contactme-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  position: fixed;
+  left: 5%;
+  top: 55%;
+}
+
+.contactme-bottom button {
+  height: 64px;
+  width: 64px;
+  border-radius: 100px;
+
+  background-color: var(--primary-color);
+  border: none;
+
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.contactme-bottom button:hover {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 50px var(--primary-color);
+  cursor: pointer;
+}
+
+.contactme-next-btn svg {
+  transform: rotate(180deg);
+}
+
+.contactme-form {
+
+    
+  background-color: var(--primary-color);
+  width: 70%;
+  height: 60vh;
+  z-index: -1;
+
+  border-top-right-radius: 64px;
+  margin-top: 36px;
+
+  /* display: flex; */
+  color: black;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.contactme-section:nth-child(1){
+    width: 48%;
+    height: 100%;
+    border-right: 1px solid black;
+    float: left;
+}
+.contactme-section:nth-child(2){
+
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+
+.contactme-input{
+    display: block;
+    width: 80%;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+
+    background-color: black;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 8px;
+
+    padding-left: 16px;
+
+}
+
+.contactme-containter{
+    position: relative;
+}
+.contactme-textarea{
+    height: 150px;
+    resize: none;
+    padding-top: 16px;
+    
+}
+
+
+.contactme-send{
+    position: absolute;
+    right: 10%;
+    bottom: 8%;
+
+    background: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+.contactme-input:focus, .contactme-input:active{
+    outline: none;
+}
+
+.contactme-input::placeholder{
+    color: rgba(255,255,255,0.8);
+}
+
+.contactme-getintouch{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactme-getintouch h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.contactme-getintouch p{
+    font-size: 20px;
+}
+
+.contactme-getintouch a{
+    text-decoration: underline;
+    color: black;
+}
+
+.contactme-getintouch ul{
+    margin: 0;
+    padding: 0;
+}
+
+.contactme-getintouch li{
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.contactme-copy{
+    position: absolute;
+    bottom: -30%;
+    left: 60%;
+    /* color: white; */
+}
+
+
+@media screen and (max-width: 750px) {
+  .contactme-main {
+    font-size: var(--font-mobile-h1);
+    margin-top: 80px;
+  }
+  .contactme-bottom button {
+    display: none;
+  }
+}
