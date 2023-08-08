@@ -33,6 +33,8 @@ export default function Projects() {
       <div className="projects-scroll-icon">
         <SVG1 />
       </div>
+
+      <p style={{marginTop: "290px", fontSize: '40px'}}>WORK IN PROGRESS</p>
     </div>
   );
 }
