@@ -67,7 +67,6 @@ export default function ContactMe() {
             </ul>
           </div>
         </section>
-        <p className="contactme-copy">@copyright 2023</p>
       </div>
     </div>
   );
