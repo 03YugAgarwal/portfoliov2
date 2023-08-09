@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import ErrorRoute from "./components/ErrorRoute";
 import ContactMe from "./components/ContactMe";
 import Projects from "./components/Projects";
+import UrlShortner from "./Projects/UrlShortner";
 
 function App() {
   const routes = createBrowserRouter([
@@ -17,6 +18,7 @@ function App() {
         { index: true, element: <Home /> },
         { path: "projects", element: <Projects /> },
         { path: "contact", element: <ContactMe /> },
+        {path: "shorten", element: <UrlShortner />}
       ],
     },
   ]);
