@@ -2,6 +2,9 @@ import "./Projects.css";
 import { ReactComponent as SVG } from "../assets/arrow-right.svg";
 import { ReactComponent as SVG1 } from "../assets/scroll.svg";
 import { useNavigate } from "react-router-dom";
+import ProjectItem from "./ProjectItem";
+
+import IMAGES from "../assets/Images";
 
 export default function Projects() {
   const nav = useNavigate();
@@ -33,8 +36,18 @@ export default function Projects() {
       <div className="projects-scroll-icon">
         <SVG1 />
       </div>
+      <div className="projects-item">
+        <ProjectItem
+          img={IMAGES.image1}
+          alt="URL Shortener"
+          title="URL Shortener"
+          description="A URL shortener is a web service that converts long and unwieldy URLs (Uniform Resource Locators) into shorter, more manageable links. These shorter links redirect users to the original, longer URL when clicked."
+          live="https://yugagarwal.codes/shorten"
+          code="https://github.com/03YugAgarwal/urlshortner-backend"
+        />
+      </div>
 
-      <p style={{marginTop: "290px", fontSize: '40px'}}>WORK IN PROGRESS</p>
+      <p style={{ fontSize: "40px", marginTop: '100px' }}>More Comming Soon...</p>
     </div>
   );
 }

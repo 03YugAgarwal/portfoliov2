@@ -75,9 +75,13 @@
 
 .projects-scroll-icon{
     position: absolute;
-    left: 50%;
+    left: 45%;
     margin-top: 120px;
     display: none;
+}
+
+.projects-item{
+  margin-top: 240px;
 }
 
 @media screen and (max-width: 750px) {
