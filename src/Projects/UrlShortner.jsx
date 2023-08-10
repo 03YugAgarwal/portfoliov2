@@ -6,7 +6,8 @@ const UrlShortner = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://urlshortner-backend-dmn3.onrender.com/create", {
+    // fetch("https://urlshortner-backend-dmn3.onrender.com/create", {
+    fetch("http://localhost:3000/create", {
       method: "POST",
       body: JSON.stringify({
         url: url,
