@@ -89,7 +89,7 @@
 .hamburger-menu-open{
 
   z-index: 2;
-  position: absolute;
+  position: fixed;
   top: 24px;
 
   width: 32px;
@@ -132,6 +132,12 @@
 
 .nav-links-hamburger button{
   display: none;
+}
+
+.nav-heading-h2-open{
+  position: fixed;
+  left: 45%;
+  top: 24px;
 }
 
 

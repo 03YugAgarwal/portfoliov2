@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="hamburger-item"></div>
       </div>
       <div className="nav-heading">
-        <h2 className="nav-heading-h2" onClick={() => nav('/')}>Yug Agarwal</h2>
+        <h2 className={`nav-heading-h2${hamburgerOpen?'-open':''}`} onClick={() => nav('/')}>Yug Agarwal</h2>
       </div>
 
 
