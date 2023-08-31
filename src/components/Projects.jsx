@@ -45,6 +45,15 @@ export default function Projects() {
           live="https://yugagarwal.codes/shorten"
           code="https://github.com/03YugAgarwal/urlshortner-backend"
         />
+        <ProjectItem
+          img={IMAGES.image2}
+          alt="Funding Website"
+          title="Fund Raiser Website"
+          description="[Open live only on Browser] Fund raising website, full stack application with working Google OAuth, payment integration using Stripe API, data stored and fetched from MongoDB"
+          live="https://funding-theta.vercel.app/"
+          code="https://github.com/03YugAgarwal/funding"
+        />
+        
       </div>
 
       <p style={{ fontSize: "40px", marginTop: '100px' }}>More Comming Soon...</p>
