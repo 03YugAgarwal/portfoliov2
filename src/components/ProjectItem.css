@@ -37,19 +37,29 @@
 
     background-color: var(--primary-color);
     border-radius: 32px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .projectitem-code-btn{
-
+    
     margin-left: 5%;
-
+    
     background-color: transparent;
     border: 2px solid var(--primary-color);
     border-radius: 32px;
     
     height: 40px;
     width: 120px;
-
+    
     color: var(--primary-color);
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.projectitem-live-btn:hover,.projectitem-code-btn:hover{
+    transform: translateY(-3px);
 }
 
 

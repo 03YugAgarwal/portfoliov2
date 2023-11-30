@@ -46,6 +46,14 @@ export default function Projects() {
           code="https://github.com/03YugAgarwal/urlshortner-backend"
         />
         <ProjectItem
+          img={IMAGES.image3}
+          alt="Mindful Hub"
+          title="Mindful Hub"
+          description="A mental health community with features such as sharing posts, live chatting, Scheduling live chat with experts, created using MERN Stack."
+          live="https://yugagarwal.codes/shorten"
+          code="https://github.com/03YugAgarwal/urlshortner-backend"
+        />
+        <ProjectItem
           img={IMAGES.image2}
           alt="Funding Website"
           title="Fund Raiser Website"
