@@ -31,6 +31,13 @@ export default function Navbar() {
       <div className={`nav-links${hamburgerOpen ? "-hamburger" : ""}`}>
         <h2>
           <a
+            href="https://blog.yugagarwal.codes"
+          >
+            Blog
+          </a>
+        </h2>
+        <h2>
+          <a
             href="https://drive.google.com/file/d/1ej4ACqomuSdMh_IwcMAIceYiF6tyIjDi/view?usp=sharing"
             target="__blank"
           >

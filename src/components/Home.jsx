@@ -54,7 +54,7 @@ export default function Home() {
           homeItem = el;
         }}
       >
-        FRONT-END DEV.
+        FULL-STACK DEV.
       </h1>
       <h2
         className="home-secondary"
@@ -89,7 +89,7 @@ export default function Home() {
             homeItem_3 = el;
           }}
         >
-          @freelancer
+          @student
         </h3>
         <button className="next-btn" onClick={handleBtnClick}>
           <SVG width="50px" height="60px" />
