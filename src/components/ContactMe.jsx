@@ -35,11 +35,11 @@ export default function ContactMe() {
 
   const handleMsgSubmit = async (e) => {
     e.preventDefault();
-
+    console.log("HI");
     if(postCheck){
       return
     }
-
+    
     const detailCollection = collection(db, "message");
     const date = new Date();
     const newMessage = { ...message, date };

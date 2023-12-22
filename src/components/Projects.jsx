@@ -50,8 +50,8 @@ export default function Projects() {
           alt="Mindful Hub"
           title="Mindful Hub"
           description="A mental health community with features such as sharing posts, live chatting, Scheduling live chat with experts, created using MERN Stack."
-          live="https://yugagarwal.codes/shorten"
-          code="https://github.com/03YugAgarwal/urlshortner-backend"
+          live="https://mindful-hub-database.vercel.app/"
+          code="https://github.com/SwarabRaul/MindfulHub-Database"
         />
         <ProjectItem
           img={IMAGES.image2}
