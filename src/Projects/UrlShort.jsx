@@ -14,7 +14,7 @@ const UrlShort = () => {
             console.log(post);
 
             if(post.error){
-                window.location.href = 'https://yugagarwal.codes/404';
+                window.location.href = 'https://yugagarwal.tech/404';
                 return
             }
 
