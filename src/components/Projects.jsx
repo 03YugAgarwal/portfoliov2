@@ -42,7 +42,7 @@ export default function Projects() {
           alt="URL Shortener"
           title="URL Shortener"
           description="A URL shortener is a web service that converts long and unwieldy URLs (Uniform Resource Locators) into shorter, more manageable links. These shorter links redirect users to the original, longer URL when clicked."
-          live="https://yugagarwal.codes/shorten"
+          live="https://yugagarwal.tech/shorten"
           code="https://github.com/03YugAgarwal/urlshortner-backend"
         />
         <ProjectItem
