@@ -34,15 +34,15 @@ const UrlShortner = () => {
           onChange={(e) => {
             setUrl(e.target.value);
           }}
-          placeholder="www.yugagarwal.codes"
+          placeholder="www.yugagarwal.tech"
           required
         />
         <button onClick={handleSubmit}>Shorten</button>
       </form>
       <h3>
         The Short Link is:{" "}
-        { short && <a href={`https://yugagarwal.codes/s/${short.short}`} target="__blank">
-          https://yugagarwal.codes/s/{short.short}
+        { short && <a href={`https://yugagarwal.tech/s/${short.short}`} target="__blank">
+          https://yugagarwal.tech/s/{short.short}
         </a>}
       </h3>
     </div>
